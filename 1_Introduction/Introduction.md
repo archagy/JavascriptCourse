@@ -18,4 +18,9 @@ ________________________________________________________________________________
 
 JavaScript Can Change HTML Attributes
 -------------------------------------
-This example changes an HTML image by changing the src (source) attribute of an <img> tag:
+This example changes an HTML image by changing the src (source) attribute of an `<img>` tag:
+
+```javascript
+<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+```
