@@ -7,19 +7,15 @@ html {
 h1 {
 	text-align: center;
 }
-.box {
-	width: 380px;
-	height: 150px;
-	border-right: 1px solid #000;
-	padding: 20px;
-	float: left;
+table {
+	width: 1200px;
+	margin: 30px;
 }
-.last {
-	border-right: none;
+table td {
+	width: 400px;
+	padding: 10px;
+	border: 1px solid #000;
 }
-.note {
-	margin-top: 15px;
-}
-.clear {
-	clear: both;
+.no-border {
+	border: none;
 }

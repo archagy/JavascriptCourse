@@ -7,42 +7,40 @@
 <body>
 	<h1>My First Web Page</h1>
 
-	<!-- Window Alert -->
-	<div class="box">
-		<p>My first paragraph.</p>
+	<table>
+		<tr>
+			<!-- Window Alert -->
+			<td>
+				<p>My first paragraph.</p>
+				<!-- Element -->
+				<p class="note"><b>Note:</b> display window alert.</p>
+			</td>
 
-		<button type="button" onclick="winAlert()">Try it</button>
+			<!-- Rewrite HTML -->
+			<td>
+				<p>My first paragraph.</p>
+				<!-- Element -->
+				<p class="note"><b>Note:</b> rewrite html.</p>
+			</td>
 
-		<p class="note"><b>Note:</b> display window alert.</p>
-	</div>
+			<!-- Change paragraph -->
+			<td>
+				<p>My first paragraph.</p>
+				<p id="demo"></p>
+				<!-- Element -->
+				<p class="note"><b>Note:</b> display in paragraph.</p>
+			</td>
+		</tr>
 
-	<!-- Rewrite HTML -->
-	<div class="box">
-		<p>My first paragraph.</p>
-
-		<button type="button" onclick="docWrite()">Try it</button>
-
-		<p class="note"><b>Note:</b> rewrite html.</p>
-	</div>
-
-	<!-- Change paragraph -->
-	<div class="box last">
-		<p>My first paragraph.</p>
-		<p id="demo"></p>
-
-		<button type="button" onclick="numNew()">Try it</button>
-
-		<p class="note"><b>Note:</b> display in paragraph.</p>
-	</div>
-
-	<div class="clear"></div>
-	<br>
-
-	<!-- View Console -->
-	<button type="button" onclick="conLog()">Try it</button>
-	<p class="note"><b>Note:</b> Activate debugging in your browser (Chrome, IE, Firefox) with F12, and select "Console" in the debugger menu.</p>
+		<tr>
+			<!-- View Console -->
+			<td class="no-border" colspan="3">
+				<!-- Element -->
+				<p class="note"><b>Note:</b> Activate debugging in your browser (Chrome, IE, Firefox) with F12, and select "Console" in the debugger menu.</p>
+			</td>
+		</tr>
+	</table>
 	
-
-	<script src="js/custom.js"></script>
+	<!-- Element -->
 </body>
 </html>

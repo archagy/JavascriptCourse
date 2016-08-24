@@ -1,19 +1,11 @@
 // Window Alert
-function winAlert() {
-	window.alert(5 + 6);
-}
+// Element
 
 // Rewrite HTML
-function docWrite() {
-	document.write(5 + 6);
-}
+// Element
 
 // Change paragraph
-function numNew() {
-	document.getElementById("demo").innerHTML = 5 + 6;
-}
+// Element
 
 // View Console
-function conLog() {
-	console.log(5 + 6);
-}
+// Element
