@@ -10,6 +10,7 @@ JavaScript can "display" data in different ways:
 * Writing into the HTML output using **document.write()**.
 * Writing into an HTML element, using **innerHTML**.
 * Writing into the browser console, using **console.log()**.
+
 ____________________________________________________________________________________________________________________________
 
 ##Using window.alert()
