@@ -24,3 +24,6 @@ This example changes an HTML image by changing the src (source) attribute of an 
 <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
 <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
 ```
+
+![bulbon](/img/pic_bulbon.gif)
+![bulboff](/img/pic_bulboff.gif)
