@@ -1,4 +1,4 @@
-#JavaScript Output
+#JavaScript Output 
 
 JavaScript does NOT have any built-in print or display functions.
 
@@ -82,6 +82,8 @@ ________________________________________________________________________________
 ##Using innerHTML
 
 To access an HTML element, JavaScript can use the **document.getElementById(id)** method. The **id** attribute defines the HTML element. The **innerHTML** property defines the HTML content:
+
+Example:
 
 ```html
 <!DOCTYPE html>
