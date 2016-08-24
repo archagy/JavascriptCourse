@@ -38,26 +38,28 @@ In this example, a JavaScript function is placed in the `<head>` section of an H
 
 example:
 
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<script>
-		function myFunction() {
-		    document.getElementById("demo").innerHTML = "Paragraph changed.";
-		}
-		</script>
-	</head>
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+	function myFunction() {
+	    document.getElementById("demo").innerHTML = "Paragraph changed.";
+	}
+	</script>
+</head>
 
-	<body>
+<body>
 
-		<h1>My Web Page</h1>
+	<h1>My Web Page</h1>
 
-		<p id="demo">A Paragraph</p>
+	<p id="demo">A Paragraph</p>
 
-		<button type="button" onclick="myFunction()">Try it</button>
+	<button type="button" onclick="myFunction()">Try it</button>
 
-	</body>
-	</html>
+</body>
+</html>
+```
 ____________________________________________________________________________________________________________________________
 
 ###JavaScript in `<body>`
@@ -66,24 +68,26 @@ In this example, a JavaScript function is placed in the `<body>` section of an H
 
 Example:
 
-	<!DOCTYPE html>
-	<html>
-	<body> 
+```html
+<!DOCTYPE html>
+<html>
+<body> 
 
-		<h1>My Web Page</h1>
+	<h1>My Web Page</h1>
 
-		<p id="demo">A Paragraph</p>
+	<p id="demo">A Paragraph</p>
 
-		<button type="button" onclick="myFunction()">Try it</button>
+	<button type="button" onclick="myFunction()">Try it</button>
 
-		<script>
-		function myFunction() {
-		   document.getElementById("demo").innerHTML = "Paragraph changed.";
-		}
-		</script>
+	<script>
+	function myFunction() {
+	   document.getElementById("demo").innerHTML = "Paragraph changed.";
+	}
+	</script>
 
-	</body>
-	</html>
+</body>
+</html>
+```
 
 :exclamation: It is a good idea to place scripts at the bottom of the `<body>` element.
 
