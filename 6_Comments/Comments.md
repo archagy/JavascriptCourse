@@ -5,15 +5,17 @@ Single line comments start with //. Any text between // and the end of the line 
 Example:
 
 This example uses a single-line comment before each code line:
+```javascript
 // Change heading:
 document.getElementById("myH").innerHTML = "My First Page";
 // Change paragraph:
 document.getElementById("myP").innerHTML = "My first paragraph.";
+```
 
 This example uses a single line comment at the end of each line to explain the code:
 var x = 5;      // Declare x, give it the value of 5
 var y = x + 2;  // Declare y, give it the value of x + 2
-----
+_____________________________________________________________________________________________________________________________
 
 Multi-line Comments
 ===================
@@ -30,7 +32,7 @@ in my web page:
 */
 document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
-----
+_____________________________________________________________________________________________________________________________
 
 Using Comments to Prevent Execution
 ===================================
