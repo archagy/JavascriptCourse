@@ -106,12 +106,14 @@ External scripts are practical when the same code is used in many different web 
 
 Example:
 
-	<!DOCTYPE html>
-	<html>
-	<body>
-		<script src="myScript.js"></script>
-	</body>
-	</html>
+```html
+<!DOCTYPE html>
+<html>
+<body>
+	<script src="myScript.js"></script>
+</body>
+</html>
+```
 
 You can place an external script reference in `<head>` or `<body>` as you like. The script will behave as if it was located exactly where the `<script>` tag is located.
 
