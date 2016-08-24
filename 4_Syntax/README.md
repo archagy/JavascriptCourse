@@ -108,7 +108,7 @@ ________________________________________________________________________________
 
 ##JavaScript Comments
 
-Not all JavaScript statements are "executed". Code after double slashes **//** or between **/*** and ***/** is treated as a comment.
+Not all JavaScript statements are "executed". Code after double slashes **//** or between **/*** and ** */** is treated as a comment.
 
 Comments are ignored, and will not be executed:
 
