@@ -18,6 +18,7 @@ ________________________________________________________________________________
 
 JavaScript Can Change HTML Attributes
 -------------------------------------
+
 This example changes an HTML image by changing the src (source) attribute of an `<img>` tag:
 
 ```javascript
@@ -27,3 +28,39 @@ This example changes an HTML image by changing the src (source) attribute of an 
 
 ![bulbon](img/pic_bulbon.gif)
 ![bulboff](img/pic_bulboff.gif)
+_____________________________________________________________________________________________________________________________
+
+JavaScript Can Change HTML Styles (CSS)
+---------------------------------------
+
+Hiding HTML elements can be done by changing the display style:
+
+Example:
+
+```javascript
+document.getElementById("demo").style.fontSize = "25px";
+```
+_____________________________________________________________________________________________________________________________
+
+JavaScript Can Hide HTML Elements
+---------------------------------
+
+Hiding HTML elements can be done by changing the display style:
+
+Example:
+
+```javascript
+document.getElementById("demo").style.display="none";
+```
+_____________________________________________________________________________________________________________________________
+
+JavaScript Can Show HTML Elements
+---------------------------------
+
+Showing hidden HTML elements can also be done by changing the display style:
+
+Example:
+
+```javascript
+document.getElementById("demo").style.display="block";
+```
