@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>What can JavaScript Do?</h1>
+
+	<table>
+		<tr>
+			<!-- Change HTML -->
+			<td>
+				<p id="demo1">JavaScript can change HTML content.</p>
+				<button type="button" onclick="document.getElementById('demo1').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+			</td>
+			
+			<!-- Change image -->
+			<td>
+				<p>JavaScript can change HTML attributes.</p>
+				<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+				<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+				<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+				<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+			</td>
+		</tr>
+
+		<tr>
+			<!-- Change style -->
+			<td>
+				<p id="demo2">JavaScript can change the style of an HTML element.</p>
+				<button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Click Me!</button>
+			</td>
+
+			<!-- Hide/Show element -->
+			<td>
+				<p id="demo3">JavaScript can hide/show HTML elements.</p>
+				<button type="button" onclick="document.getElementById('demo3').style.display='none'">Click Me! to hide</button>
+				<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me! to show</button>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
