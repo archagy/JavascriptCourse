@@ -3,8 +3,7 @@ JavaScript Where To
 
 JavaScript can be placed in the `<body>` and the `<head>` sections of an HTML page.
 
-The `<script>` Tag
-------------------
+##The `<script>` Tag
 
 In HTML, JavaScript code must be inserted between `<script>` and `</script>` tags.
 
@@ -21,14 +20,12 @@ document.getElementById("demo").innerHTML = "My First JavaScript";
 :exclamation: This type attribute is not required. JavaScript is the default scripting language in HTML.
 ____________________________________________________________________________________________________________________________
 
-JavaScript Functions and Events
--------------------------------
+##JavaScript Functions and Events
 
 A JavaScript **function** is a block of JavaScript code, that can be executed when "asked" for. For example, a function can be executed when an **event** occurs, like when the user clicks a button. You will learn much more about functions and events in later chapters.
 ____________________________________________________________________________________________________________________________
 
-JavaScript in `<head>` or `<body>`
-----------------------------------
+##JavaScript in `<head>` or `<body>`
 
 You can place any number of scripts in an HTML document. Scripts can be placed in the `<body>`, or in the `<head>` section of an HTML page, or in both.
 
@@ -93,8 +90,7 @@ Example:
 :exclamation: This can improve page load, because script compilation can slow down the display.
 ____________________________________________________________________________________________________________________________
 
-External JavaScript
--------------------
+##External JavaScript
 
 Scripts can also be placed in external files:
 
@@ -122,8 +118,7 @@ You can place an external script reference in `<head>` or `<body>` as you like. 
 :exclamation: External scripts cannot contain `<script>` tags.
 ____________________________________________________________________________________________________________________________
 
-External JavaScript Advantages
-------------------------------
+##External JavaScript Advantages
 
 Placing JavaScripts in external files has some advantages:
 
