@@ -1,5 +1,8 @@
+JavaScript Comments
+===================
+
 Single Line Comments
-====================
+--------------------
 
 Single line comments start with //. Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
 Example:
@@ -20,7 +23,7 @@ var y = x + 2;  // Declare y, give it the value of x + 2
 _____________________________________________________________________________________________________________________________
 
 Multi-line Comments
-===================
+-------------------
 
 Multi-line comments start with /* and end with */. Any text between /* and */ will be ignored by JavaScript.
 Example:
@@ -36,10 +39,13 @@ in my web page:
 document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
 ```
+
+:exclamation: It is most common to use single line comments.
+:exclamation: Block comments are often used for formal documentation.
 _____________________________________________________________________________________________________________________________
 
 Using Comments to Prevent Execution
-===================================
+-----------------------------------
 
 Using comments to prevent execution of code is suitable for code testing. Adding // in front of a code line changes the code lines from an executable line to a comment.
 Example:
